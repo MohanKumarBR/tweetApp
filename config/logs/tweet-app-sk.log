@@ -1,0 +1,39 @@
+2022-06-01 02:13:46.970  WARN 5032 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55m29s423ms693µs500ns).
+2022-06-01 06:11:42.283  WARN 5032 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h58m23s128ms464µs200ns).
+2022-06-01 08:14:18.782  WARN 5032 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h3m3s519ms324µs100ns).
+2022-06-01 09:59:17.449  INFO 21544 --- [main] com.tweetapp.TweetAppServiceApplication  : Starting TweetAppServiceApplication using Java 17.0.2 on IN0011J2 with PID 21544 (C:\Users\MohanKumarBR\git\TweetApp-Service\TweetAppService\target\classes started by 0011J2744 in C:\Users\MohanKumarBR\git\TweetApp-Service\TweetAppService)
+2022-06-01 09:59:17.452  INFO 21544 --- [main] com.tweetapp.TweetAppServiceApplication  : No active profile set, falling back to default profiles: default
+2022-06-01 09:59:18.706  INFO 21544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-06-01 09:59:18.757  INFO 21544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2022-06-01 09:59:19.366  INFO 21544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-01 09:59:19.379  INFO 21544 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-01 09:59:19.379  INFO 21544 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-06-01 09:59:19.475  INFO 21544 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-01 09:59:19.475  INFO 21544 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1967 ms
+2022-06-01 09:59:19.751  INFO 21544 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-01 09:59:19.765  INFO 21544 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-01 09:59:23.704  INFO 21544 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-01 09:59:23.771  INFO 21544 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-01 09:59:23.854  INFO 21544 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-06-01 09:59:24.043  WARN 21544 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-01 09:59:24.099  INFO 21544 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-01 09:59:24.344  INFO 21544 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2022-06-01 09:59:24.554  INFO 21544 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-01 09:59:25.492  INFO 21544 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-01 09:59:25.503  INFO 21544 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-01 09:59:25.541  INFO 21544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-01 09:59:25.909  INFO 21544 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2022-06-01 09:59:26.184  INFO 21544 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2022-06-01 09:59:26.198  INFO 21544 --- [main] com.tweetapp.TweetAppServiceApplication  : Started TweetAppServiceApplication in 9.193 seconds (JVM running for 10.283)
+2022-06-01 09:59:50.504  INFO 21544 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-01 10:16:29.162  INFO 21544 --- [http-nio-8080-exec-8] com.tweetapp.controller.UserController   : Registration for user mohan kumar
+2022-06-01 10:16:29.163  INFO 21544 --- [http-nio-8080-exec-8] com.tweetapp.service.UserService         : In register Request-> User(userId=1, firstName=mohan, lastName=kumar, gender=male, dob=1998-08-03, emailId=mkgowda11@gmail.com, password=pass) 
+2022-06-01 10:16:31.268  INFO 21544 --- [http-nio-8080-exec-8] com.tweetapp.service.UserService         : Exiting register Response -> UserName Registered Successfully
+2022-06-01 10:41:15.583  INFO 21544 --- [http-nio-8080-exec-9] com.tweetapp.controller.UserController   : Registration for user abhi shek
+2022-06-01 10:41:15.584  INFO 21544 --- [http-nio-8080-exec-9] com.tweetapp.service.UserService         : In register Request-> User(userId=2, firstName=abhi, lastName=shek, gender=male, dob=1997-05-07, emailId=abhi@gmail.com, password=pass) 
+2022-06-01 10:41:17.359  INFO 21544 --- [http-nio-8080-exec-9] com.tweetapp.service.UserService         : Exiting register Response -> UserName Registered Successfully
+2022-06-01 11:19:54.640  INFO 21544 --- [RMI TCP Connection(92)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-06-01 11:19:54.854  INFO 21544 --- [RMI TCP Connection(92)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-01 11:19:54.867  INFO 21544 --- [RMI TCP Connection(92)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-01 11:19:54.869  INFO 21544 --- [RMI TCP Connection(92)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-01 11:19:57.321  INFO 21544 --- [RMI TCP Connection(92)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
